@@ -5,62 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exam Portal Dashboard</title>
   <link rel="stylesheet" href="dashboard.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header class="header">
-  <h1>Welcome to the Exam Portal</h1>
-  <div class="header-search">
-    <input type="text" placeholder="Search services...">
-    <div class="header-buttons">
-      <a href="login.html" class="btn">Login</a>
-      <a href="register1.html" class="btn">Register</a>
-    </div>
+<header>
+  <div class="header-left">
+    <h1>Exam Portal Dashboard</h1>
+  </div>
+  <div class="header-right">
+    <input type="text" placeholder="Search...">
+    <a href="login.html" class="button">Login</a>
+    <a href="register.html" class="button">Register</a>
   </div>
 </header>
+<div class="dashboard">
+  <div class="service-box">
+    <a href="e-exam.html">
+      <h2>e-Exam</h2>
+      <p>Take Exams</p>
+    </a>
+  </div>
+  <div class="service-box">
+    <a href="openforum.html">
+      <h2>OpenForum</h2>
+      <p>Join Discussions</p>
+    </a>
+  </div>
+  <div class="service-box">
+    <a href="e-repository.html">
+      <h2>e-Repository</h2>
+      <p>Access Resources</p>
+    </a>
+  </div>
+  <div class="service-box">
+    <a href="mywall.html">
+      <h2>MyWall</h2>
+      <p>Manage Wall</p>
+    </a>
+  </div>
+</div>
 
-<main>
-  <section class="intro">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQauJeWdeRu5lmn8h7ThTMpMkC9Pm6OKklEOA&s alt="Dashboard Image" class="intro-image">
-    <p>Welcome to the Exam Portal! Here, you can access essential tools for exams, open discussions, valuable resources, and your personalized wall.</p>
-  </section>
+<div class="homepage">
+  <img src="https://via.placeholder.com/100" alt="Service Image">
+  <p>Welcome to the Exam Portal Dashboard! Our platform offers essential tools for taking exams, engaging in open discussions, accessing valuable resources, and personalizing your wall. Discover each service below to get started.</p>
+</div>
 
-  <section class="dashboard">
-    <div class="service-container">
-      <div class="service">
-        <a href="e-exam.html">
-          <h2>e-Exam</h2>
-          <p>Take Exams Online</p>
-        </a>
-      </div>
-      <div class="service">
-        <a href="openforum.html">
-          <h2>OpenForum</h2>
-          <p>Engage in Discussions</p>
-        </a>
-      </div>
-      <div class="service">
-        <a href="e-repository.html">
-          <h2>e-Repository</h2>
-          <p>Access Learning Materials</p>
-        </a>
-      </div>
-      <div class="service">
-        <a href="register1.html">
-          <h2>MyWall</h2>
-          <p>Personalize Your Wall</p>
-        </a>
-      </div>
-    </div>
-  </section>
-</main>
 
-<footer>
-  <div class="footer-content">
-    <a href="#">Privacy Policy</a>
-    <span>|</span>
-    <a href="#">Terms of Service</a>
-    <span>|</span>
+<footer class="footer">
+  <div class="footer-links">
+    <a href="#">Privacy Policy</a> | 
+    <a href="#">Terms of Service</a> | 
     <a href="#">Contact Us</a>
   </div>
 </footer>
